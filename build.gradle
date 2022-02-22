@@ -1,0 +1,14 @@
+allprojects {
+    apply plugin: 'java'
+
+    targetCompatibility = '17'
+    sourceCompatibility = '17'
+
+    group = 'com.wizardlybump17.http'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}
